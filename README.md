@@ -3,7 +3,7 @@ Kioku auxilia estudantes de inúmeros backgrounds diferentes a memorizar conteú
 
 ### Made by
 - Marcus Ledo
-- name
+- Flávia de Jesus 
 - name
 - name
 - name
