@@ -6,4 +6,4 @@ Kioku auxilia estudantes de inúmeros backgrounds diferentes a memorizar conteú
 - Flávia de Jesus 
 - Gabriel Pires 
 - Álefe de Oliveira
-- name
+- Victor Medeiros de Oliveira
