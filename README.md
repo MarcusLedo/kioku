@@ -5,5 +5,5 @@ Kioku auxilia estudantes de inúmeros backgrounds diferentes a memorizar conteú
 - Marcus Ledo
 - Flávia de Jesus 
 - Gabriel Pires 
-- name
+- Álefe de Oliveira
 - name
