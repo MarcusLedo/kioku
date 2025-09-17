@@ -7,3 +7,4 @@ Kioku auxilia estudantes de inúmeros backgrounds diferentes a memorizar conteú
 - Gabriel Pires 
 - Álefe de Oliveira
 - Victor Medeiros de Oliveira
+- Matheus Henrique Bomfim de Souza
