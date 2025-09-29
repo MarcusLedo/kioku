@@ -1,5 +1,8 @@
 import google from "@/assets/icons/google.png";
 import home from "@/assets/icons/home.png";
+import add from "@/assets/icons/add.png";
+import add2 from "@/assets/icons/add2.png";
+import addSquare from "@/assets/icons/addSquare.png";
 import search from "@/assets/icons/search.png";
 import person from "@/assets/icons/person.png";
 import bell from "@/assets/icons/bell.png";
@@ -35,6 +38,9 @@ import edit from "@/assets/icons/edit.png";
 export default {
   google,
   home,
+  add,
+  add2,
+  addSquare,
   search,
   person,
   bell,
