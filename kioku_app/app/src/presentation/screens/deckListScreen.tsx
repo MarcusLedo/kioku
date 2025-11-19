@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { View, Text, FlatList, StyleSheet } from "react-native";
 import SearchBar from "../components/searchBar";
 import DeckCard from "../components/deckCard";
+import { useNavigation } from "@react-navigation/native";
+import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
+
+type NavProps = NativeStackNavigationProp<any>;
 
 export interface Deck {
   id: number;
@@ -12,6 +16,7 @@ export interface Deck {
 }
 
 export default function DeckListScreen() {
+  const navigation = useNavigation<NavProps>();
   const [search, setSearch] = useState<string>("");
   const [decks, setDecks] = useState<Deck[]>([]);
 
@@ -57,7 +62,12 @@ export default function DeckListScreen() {
           numColumns={2}
           columnWrapperStyle={styles.column}
           contentContainerStyle={{ paddingBottom: 20 }}
-          renderItem={({ item }: { item: Deck }) => <DeckCard deck={item} />}
+          renderItem={({ item }: { item: Deck }) => (
+            <DeckCard 
+              deck={item} 
+              onPress={() => navigation.navigate("DeckDetails", { deck: item })}
+            />
+          )}
         />
       )}
     </View>

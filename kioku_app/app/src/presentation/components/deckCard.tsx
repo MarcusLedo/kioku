@@ -5,6 +5,7 @@ import { Deck } from "../screens/deckListScreen";
 
 interface Props {
   deck: Deck;
+  onPress?: () => void;
 }
 
 export default function DeckCard({ deck }: Props) {
