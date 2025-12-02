@@ -1,0 +1,68 @@
+name: kioku
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: ^3.6.0
+dependencies: 
+  flutter:   # 🚨 CRITICAL: Required for every Flutter project - DO NOT REMOVE
+    sdk: flutter # 🚨 CRITICAL: Required for every Flutter project - DO NOT REMOVE
+  flutter_localizations: 
+    sdk: flutter
+  flutter_svg: ^2.0.12
+  cached_network_image: ^3.4.1
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.0
+  gradient_borders: ^1.0.2
+  get: ^4.6.6
+  web: any
+  file_picker: ^8.1.7
+  image_picker: ^1.0.7
+  supabase_flutter: any
+  flutter_dotenv: ^5.1.0
+  share_plus: ^10.1.2
+  path_provider: ^2.1.5
+  pdf: ^3.11.1
+  printing: ^5.13.3
+dev_dependencies: 
+  flutter_test:    # 🚨 CRITICAL: Required for Flutter project testing - DO NOT REMOVE
+    sdk: flutter    # 🚨 CRITICAL: Required for Flutter project testing - DO NOT REMOVE
+  mocktail: ^1.0.0
+  build_runner: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+flutter: 
+  uses-material-design: true # 🚨 CRITICAL: Required for Material icon font - DO NOT REMOVE
+  assets: 
+    - assets/
+    - assets/images/
+    - .env
+  fonts: 
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSansLight.ttf
+          weight: 300
+
+  # 🚨 CRITICAL ASSET MANAGEMENT RULES:
+  # - DO NOT ADD NEW ASSET DIRECTORIES (assets/svg/, assets/icons/, etc.)
+  # - ONLY USE EXISTING AND ITEMS AVAILABLE IN THE DIRECTORIES LISTED ABOVE (assets/, assets/images/)
+
+  # 🚨 CRITICAL FONTS RULE:
+  # - DO NOT ADD NEW LOCAL FONTS TO assets/fonts/ 
+  # - ONLY USE EXISTING LOCAL FONTS FROM assets/fonts/
+
+# Configuração do logo do app
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#00B4CC"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/app_icon.png"
+    background_color: "#00B4CC"
+    theme_color: "#005F6B"
