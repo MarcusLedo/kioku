@@ -1,0 +1,3 @@
+class AssociationModel {
+  AssociationModel();
+}
